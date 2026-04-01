@@ -1,0 +1,27 @@
+.page {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.container {
+  padding: 20px 60px 10px 60px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #E5E5E5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px 20px 0px 20px;
+  }
+}
