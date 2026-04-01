@@ -232,8 +232,8 @@
     }
 
     .footer_pay {
-        flex-wrap: wrap;
-        gap: 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .footer_pay>* {
