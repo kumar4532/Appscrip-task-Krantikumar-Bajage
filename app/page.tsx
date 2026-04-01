@@ -16,7 +16,7 @@ const page = () => {
 
         <hr className="divider" />
 
-        <div className="container">
+        <div className="discovery_container">
           <Discover />
         </div>
 

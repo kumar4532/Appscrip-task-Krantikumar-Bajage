@@ -10,7 +10,11 @@
 }
 
 .container {
-  padding: 20px 60px 10px 60px;
+  padding: 20px 60px 0px 60px;
+}
+
+.discovery_container {
+  padding: 24px 60px;
 }
 
 .divider {
@@ -23,5 +27,9 @@
 @media (max-width: 768px) {
   .container {
     padding: 10px 20px 0px 20px;
+  }
+
+  .discovery_container {
+    padding: 10px 20px;
   }
 }
